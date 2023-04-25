@@ -11,7 +11,7 @@ export class AppComponent {
  arrayDeTarefas: Tarefa[] = [];
  apiURL : string;
  constructor(private http: HttpClient) {
- this.apiURL = 'https://todoapp-api2.vercel.app/';
+ this.apiURL = 'https://todoapp-api2.vercel.app';
  this.READ_tarefas();
  }
  CREATE_tarefa(descricaoNovaTarefa: string) {
